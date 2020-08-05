@@ -19,7 +19,7 @@ class Song
       binding.pry
       song.artist = song.split(" - ")[0]
     song
-    end
+  
   end
   
   
