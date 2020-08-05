@@ -19,6 +19,7 @@ class Song
     song = self.new(song_info[0])
    artist= Artist.find_or_create_by_name(song_info[1])
    song.artist =artist
+   song
   #binding.pry
 end
   
