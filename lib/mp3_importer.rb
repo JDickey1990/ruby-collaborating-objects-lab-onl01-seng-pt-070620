@@ -6,12 +6,11 @@ def initialize(path)
   @path = path
 end
 
-def files
- 
-end
 
-def import
-Song.new_by_filename(some_filename)
+
+
+def import 
+  
 end
 
 
