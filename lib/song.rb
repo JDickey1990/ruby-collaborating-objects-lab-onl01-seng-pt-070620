@@ -18,8 +18,8 @@ class Song
       song = self.new
       song.artist = song.split(" - ")[0]
     song
-  binding.pry
-  end
   
+  end
+  binding.pry
   
 end
