@@ -22,5 +22,7 @@ class Song
    song
   #binding.pry
 end
+
+  def 
   
 end
