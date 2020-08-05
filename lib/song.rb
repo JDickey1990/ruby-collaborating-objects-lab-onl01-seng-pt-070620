@@ -13,7 +13,7 @@ class Song
     @@all
   end
   
-  def self.new_by_filename(some_filename)
+  def self.new_by_filename(file)
     song = self.new
     some_filename.each do |file|
       song.artist = file.split(" - ")[0]
